@@ -18,14 +18,13 @@ body{
         }
         .menu{
             width: 150px;
-            background-color: antiquewhite;
             ul{
                 display: flex;
                 li{
                     font-size: 1rem;
                     color: $color-secundario;
                     :hover{
-                        background-color: rgb(228, 172, 172);
+                        background-color: rgb(172, 226, 228);
                         font-size: 30px;
                     }
                 }
