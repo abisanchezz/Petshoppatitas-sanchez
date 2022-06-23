@@ -1,0 +1,15 @@
+header {
+  background-color: #f1f1;
+  width: 250px;
+  box-shadow: 1 px 1px black; }
+  header h1 {
+    color: yellow;
+    font-size: 2rem; }
+  header .menu {
+    width: 150px;
+    background-color: black; }
+    header .menu ul {
+      list-style: none; }
+      header .menu ul li {
+        font-size: 1rem;
+        color: #f3f3; }

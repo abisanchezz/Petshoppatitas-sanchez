@@ -1,0 +1,24 @@
+//import
+@import "utilities/variables";
+
+header{
+    background-color: $color-principal;
+    width: $medida-principal+50;
+    box-shadow: 1 px 1px black;
+
+    h1{
+        color: yellow;
+        font-size: 2rem;
+    }
+    .menu{
+        width: 150px;
+        background-color: black;
+        ul{
+            list-style: none;
+            li{
+                font-size: 1rem;
+                color: $color-secundario;
+            }
+        }
+    }
+}
