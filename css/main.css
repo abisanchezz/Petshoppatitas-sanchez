@@ -1,15 +1,28 @@
-header {
-  background-color: #f1f1;
-  width: 250px;
-  box-shadow: 1 px 1px black; }
-  header h1 {
-    color: yellow;
-    font-size: 2rem; }
-  header .menu {
-    width: 150px;
-    background-color: black; }
-    header .menu ul {
-      list-style: none; }
-      header .menu ul li {
-        font-size: 1rem;
-        color: #f3f3; }
+body {
+  background-image: url(../images/4853433.jpg); }
+  body header {
+    background-color: antiquewhite;
+    grid-area: header;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center; }
+    body header h1 {
+      font-family: 'Paytone One', sans-serif;
+      font-family: 'Roboto Slab', serif; }
+    body header .menu {
+      width: 150px;
+      background-color: antiquewhite; }
+      body header .menu ul {
+        display: flex; }
+        body header .menu ul li {
+          font-size: 1rem;
+          color: #f3f3; }
+          body header .menu ul li :hover {
+            background-color: #e4acac;
+            font-size: 30px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
